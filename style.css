@@ -3,3 +3,175 @@
     padding: 0;
     margin: 0;
 }
+
+
+/* HEADER  */
+header {
+   height: 60px;
+   display: flex;
+   /* DEBUG */
+   background-color: #ADD8E6;
+}
+
+.nav-bar {
+   display: flex;
+   justify-content: space-between;
+   width: 60%;
+   margin: auto;
+   align-items: center;
+   /* DEBUG */
+   background-color: #DAA520;
+}
+
+ul {
+   list-style-type: none;
+   width: 50%;
+   text-align: center;
+}
+
+li {
+   display: inline-block;
+}
+
+.border {
+   border-style: dashed;
+   flex-grow: 1;
+}
+
+.left {
+   text-align: right;
+}
+
+/* MAIN  */
+.section-1{
+   display: flex;
+   height: 350px;
+   /* DEBUG */
+   background-color: #00008B;
+}
+
+.pink {
+   height: 280px;
+   width: 50%;
+   margin: auto;
+   /* DEBUG */
+   background-color: #EE82EE;
+   border-style: dashed;
+
+}
+
+.special-section { 
+   height: 400px;
+   display: flex;
+}
+
+.container {
+   
+   height: 350px;
+   width: 70%;
+   margin: auto;
+   display: flex;
+}
+
+.lightblue{
+   height: 100%;
+   width: 70%;
+   /* DEBUG */
+   background-color: lightskyblue;
+   border-style: dashed;
+}
+
+.rose {
+   height: 100%;
+   width: 50%;
+   /* DEBUG */
+   background-color: pink;
+   border-style: dashed;
+}
+
+.bc-grey {
+   /* DEBUG */
+   background-color: lightgray;
+}
+
+.big-section {
+   height: 600px;
+   display: flex;
+   /* DEBUG */
+   background-color: lightgrey;
+}
+
+.big-container {
+   height: 550px;
+   width: 70%;
+   margin: auto;
+
+   /* DEBUG */
+   background-color: green;
+   border-style: dashed;
+}
+
+/* FOOTER  */
+.section-column {
+   display: flex;
+   height: 380px;
+   /* DEBUG */
+   background-color: gray;
+}
+
+.first-column {
+   height: 100%;
+   width: 30%;
+   background-color: purple;
+   border-style: dashed;
+}
+
+.column {
+   flex-direction: column;
+   height: 100%;
+   width: 20%;
+   border-style: dashed;
+   background-color: lightseagreen;
+}
+
+.bottom-footer {
+   display: flex;
+   height: 70px;
+   align-items: flex-end;
+   justify-content: center;
+   /* DEBUG  */
+   background-color: gray;
+   
+}
+
+.container-footer {
+   height: 50px;
+   width: 60%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* DEBUG  */
+   background-color:aquamarine ;
+}
+
+.logo, .button {
+   height: 30px;
+   width: 10%;
+   display: flex;
+   padding: 5px;
+   
+   /* DEBUG  */
+   background-color: plum;
+   border-style: dashed;
+}
+
+
+
+
+
+
+
+
+
+
+
